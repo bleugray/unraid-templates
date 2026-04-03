@@ -9,7 +9,7 @@
   <Project>https://github.com/bleugray/qbittorrent-port-forward-gluetun-server-configurable-polling-interval</Project>
   <Overview>A shell script and Docker container for automatically setting qBittorrent's listening port from Gluetun's control server, with a configurable polling interval.</Overview>
   <Category>Tools: Network:</Category>
-  <Icon>https://raw.githubusercontent.com/bleugray/unraid-templates/master/icons/qbittorrent.svg</Icon>
+  <Icon>https://raw.githubusercontent.com/bleugray/unraid-templates/master/icons/qbittorrent.png</Icon>
   <ExtraParams>--restart unless-stopped</ExtraParams>
   <Config Name="QBT_USERNAME" Target="QBT_USERNAME" Default="admin" Mode="" Description="qBittorrent username" Type="Variable" Display="always" Required="false" Mask="false">admin</Config>
   <Config Name="QBT_PASSWORD" Target="QBT_PASSWORD" Default="adminadmin" Mode="" Description="qBittorrent password" Type="Variable" Display="always" Required="false" Mask="true">adminadmin</Config>
